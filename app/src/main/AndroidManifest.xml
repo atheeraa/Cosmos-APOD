@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.example.favor.cosmos">
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
+=======
+    package="com.example.cosmology" >
+>>>>>>> a4bc689a478ae0fb30becb2326503c757cb822ea
 
     <application
         android:allowBackup="true"
@@ -11,8 +15,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+=======
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+>>>>>>> a4bc689a478ae0fb30becb2326503c757cb822ea
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

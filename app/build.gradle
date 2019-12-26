@@ -2,9 +2,16 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 29
+<<<<<<< HEAD
     defaultConfig {
         applicationId "com.example.favor.cosmos"
         minSdkVersion 16
+=======
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.example.cosmology"
+        minSdkVersion 15
+>>>>>>> a4bc689a478ae0fb30becb2326503c757cb822ea
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -13,13 +20,18 @@ android {
     buildTypes {
         release {
             minifyEnabled false
+<<<<<<< HEAD
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+=======
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+>>>>>>> a4bc689a478ae0fb30becb2326503c757cb822ea
         }
     }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+<<<<<<< HEAD
     implementation 'androidx.appcompat:appcompat:1.0.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     testImplementation 'junit:junit:4.12'
@@ -36,4 +48,11 @@ dependencies {
     implementation 'com.fasterxml.jackson.core:jackson-annotations:2.9.8'
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.9.8'
     implementation 'com.google.android.material:material:1.0.0'
+=======
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+>>>>>>> a4bc689a478ae0fb30becb2326503c757cb822ea
 }

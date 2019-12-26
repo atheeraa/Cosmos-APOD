@@ -1,11 +1,24 @@
 *.iml
 .gradle
 /local.properties
+<<<<<<< HEAD
 /.idea/caches/build_file_checksums.ser
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
+=======
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+>>>>>>> a4bc689a478ae0fb30becb2326503c757cb822ea
 .DS_Store
 /build
 /captures
 .externalNativeBuild
+<<<<<<< HEAD
+=======
+.cxx
+>>>>>>> a4bc689a478ae0fb30becb2326503c757cb822ea
